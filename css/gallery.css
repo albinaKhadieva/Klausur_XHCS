@@ -1,0 +1,49 @@
+main{
+    min-height: 83vh;
+}
+figure{
+    margin: 10px;
+    padding: 0;
+}
+.gallery{
+    display: grid;
+    max-width: 1000px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+img{
+    height: 120px;
+    width: 200px;
+}
+figcaption{
+    text-align: center;
+}
+
+label{
+    display: block;
+    font-size: 20px;
+    margin: 10px 0;
+}
+#anzahl{
+    min-width: 300px;
+    padding: 10px;
+    font-size: 14px;
+    background-color: rgb(240, 212, 135);
+    margin-bottom: 20px;
+}
+
+#submit{
+    font-size: 16px;
+    padding: 10px 20px;
+    background-color: rgb(206, 93, 48);
+    color:white;
+}
+#submit:hover{
+    cursor: pointer;
+    opacity: 0.95;
+    box-shadow: 0 2px 8px #444;
+}
+#message{
+    color: red;
+    font-weight: bold;
+}

@@ -1,0 +1,15 @@
+main{
+    min-height: 83vh;
+}
+summary{
+    font-size: 22px;
+    font-weight: 600;
+    color: rgb(95, 18, 18);
+    margin: 10px 0;
+}
+dt{
+    font-weight: 600;
+}
+li, dd{
+    padding: 10px 20px;
+}

@@ -1,0 +1,15 @@
+main{
+    min-height: 83vh;
+}
+.container{
+    max-width: 800px;
+}
+
+#formating__absatz{
+    
+    font-size: 18px;
+}
+
+#formating__quote{
+    font-size: 16px;
+}

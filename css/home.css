@@ -1,0 +1,54 @@
+.main-aside{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: rgb(240, 212, 135);
+    min-height: 83vh;
+}
+main{
+    background-image: url('../bilder/cat_banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+    font-family: 'Roboto', sans-serif;
+    width: 85%;
+}
+
+aside{
+    width: 15%;
+    background-color:rgb(247, 222, 186);
+    padding-left: 10px;
+}
+.banner_txt{
+    max-width: 350px;
+    color:rgb(90, 14, 14);
+    margin:50px;
+    line-height: 3em;
+}
+.contacts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+}
+.contacts img{
+    width: 50px;
+    height: 50px;
+    display: block;
+}
+.contacts img:hover{
+    width: 55px;
+    height: 55px;
+}
+#contacts, #addresse{
+    margin-top: 50px;
+    color:rgb(90, 14, 14);
+    cursor:pointer;
+}
+address{
+    max-width: 90%;
+    font-weight: bold;
+}
+#contacts{
+    max-width: 90%;
+}
