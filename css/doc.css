@@ -1,0 +1,17 @@
+main{
+    min-height: 80vh;
+    color: rgb(95, 18, 18)
+}
+p{
+    padding: 10px 0;
+}
+dt{
+    font-weight: 600;
+}
+
+dd{
+    padding: 10px 20px 10px 20px;
+}
+dl dt:first-child{
+    margin-top: 20px;
+}
