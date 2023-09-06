@@ -1,69 +1,71 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,300;1,400&display=swap');
-*{
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,300;1,400&display=swap");
+
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-
 }
-body{
+body {
     background-color: rgb(240, 212, 135);
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
 }
-.container{
+.container {
     max-width: 1400px;
     margin: 0 auto;
 }
-header{
+header {
     padding: 5px 30px;
     background-color: rgb(206, 93, 48);
-    color:white;
+    color: white;
 }
-.header{
-    display:flex;
+.header {
+    display: flex;
     justify-content: flex-start;
     flex-direction: row;
     align-items: center;
     flex-wrap: wrap;
 }
-svg{
+svg {
     margin-right: 20px;
 }
-header a{
+header a {
     color: white;
 }
-a{
+a {
     font-size: 18px;
     color: rgb(83, 15, 15);
     margin-right: 30px;
     text-decoration: none;
 }
-a:first-child{
+a:first-child {
     margin-right: px;
 }
-header a:hover, a[clicked]{
+header a:hover,
+a[clicked] {
     color: rgb(83, 15, 15);
 }
-a:active{
+a:active {
     color: blue;
 }
-footer
-{
-    
-    background-color: rgb(206, 93, 48);
-    text-align: center;
-    padding: 10px;
-    height: 20%;
-}
 
-main{
+main {
     padding: 30px;
 }
 
-h1{
-    color:rgb(95, 18, 18);
+footer {
+    background-color: rgb(206, 93, 48);
+    text-align: center;
+    padding: 15px;
+    height: 60px;
+    margin-bottom: 0px;
+}
+h1 {
+    color: rgb(95, 18, 18);
     padding: 7px 0;
 }
-h3{
-    color:rgb(141, 7, 7);
+h3 {
+    color: rgb(141, 7, 7);
     padding: 7px 0;
 }
+
+
